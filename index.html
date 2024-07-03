@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike React</title>
+    <!-- Tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="icons/Logo.png" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="icons/Logo.png" class="h-8" alt="Flowbite Logo" />
+
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        Home
+                    </li>
+                    <li>
+                        Product
+                    </li>
+                    <li>
+                        About Us
+                    </li>
+                    <li>
+                        Contact Us
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container mx-auto my-8 grid grid-cols-2 items-center">
+        <div class="col-span-1 w-1/2">
+            <img class="" src="images/Group 33092.png" alt="">
+        </div>
+        <div class="col-span-1 flex flex-col">
+            <h1 class="sm:text-5xl font-extrabold">
+                <span class="text-orange-500">NIKE REACT</span>
+                <span>
+                    INFINITY RUN 2
+                </span>
+            </h1>
+            </h1>
+            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
+            <button class="bg-blue-700 w-fit uppercase p-5 text-white rounded-xl"><svg
+                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg> Buy now</button>
+        </div>
+    </section>
+    <!-- casual shoes -->
+    <section>
+        <h2 class="font-extrabold text-5xl py-14">Casual Shoes</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+            <!-- shoes 1 -->
+            <div class="shadow-xl rounded-lg">
+                <div class="p-4 bg-slate-100 rounded-xl">
+                    <img src="images/image 5.png" alt="">
+                </div>
+                <div class="p-3">
+                    <h1 class="text-2xl font-bold">Nike Shoe</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-5xl font-semibold text-orange-500">$234</h2>
+                        <button class="bg-blue-700 w-fit uppercase p-5 text-white rounded-xl"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg> Buy now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- shoes 2 -->
+            <div class="shadow-xl rounded-lg">
+                <div class="p-4 bg-slate-100 rounded-xl">
+                    <img src="images/Daco_1703273 1.png" alt="">
+                </div>
+                <div class="p-3">
+                    <h1 class="text-2xl font-bold">Nike Shoe</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-5xl font-semibold text-orange-500">$234</h2>
+                        <button class="bg-blue-700 w-fit uppercase p-5 text-white rounded-xl"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg> Buy now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- shoes 3 -->
+            <div class="shadow-xl rounded-lg">
+                <div class="p-4 bg-slate-100 rounded-xl">
+                    <img src="images/pngegg 1.png" alt="">
+                </div>
+                <div class="p-3">
+                    <h1 class="text-2xl font-bold">Nike Shoe</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-5xl font-semibold text-orange-500">$234</h2>
+                        <button class="bg-blue-700 w-fit uppercase p-5 text-white rounded-xl"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg> Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Formal shoes -->
+    <section>
+        <h2 class="font-extrabold text-5xl py-14">Casual Shoes</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+            <!-- Formal shoes 1 -->
+            <div class="shadow-xl rounded-lg">
+                <div class="p-4 bg-slate-100 rounded-xl">
+                    <img src="images/Mask Group.png" alt="">
+                </div>
+                <div class="p-3">
+                    <h1 class="text-2xl font-bold">Nike Shoe</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-5xl font-semibold text-orange-500">$234</h2>
+                        <button class="bg-blue-700 w-fit uppercase p-5 text-white rounded-xl"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg> Buy now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Formal shoes 2 -->
+            <div class="shadow-xl rounded-lg">
+                <div class="p-4 bg-slate-100 rounded-xl">
+                    <img src="images/Rectangle 38.png" alt="">
+                </div>
+                <div class="p-3">
+                    <h1 class="text-2xl font-bold">Slip-On Formal Shoe </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit laudantium ipsa qui?</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-5xl font-semibold text-orange-500">$234</h2>
+                        <button class="bg-blue-700 w-fit uppercase p-5 text-white rounded-xl"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg> Buy now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Formal shoes 3 -->
+            <div class="shadow-xl rounded-lg">
+                <div class="p-4 bg-slate-100 rounded-xl">
+                    <img src="images/Rectangle 39.png" alt="">
+                </div>
+                <div class="p-3">
+                    <h1 class="text-2xl font-bold">Slip-On Formal Shoe</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-5xl font-semibold text-orange-500">$234</h2>
+                        <button class="bg-blue-700 w-fit uppercase p-5 text-white rounded-xl"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg> Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our benifits -->
+    <section>
+
+        <div class="grid grid-cols-2 gap-7 py-20">
+            <div class="rounded-lg flex bg-white p-6">
+                <img class="h-20 w-20" src="icons/image 12.png" alt="">
+                <div>
+                    <h4 class="text-2xl">Find the Perfect Fit</h4>
+                    <p>Everybody is different, which is why we offer styles for every body</p>
+                </div>
+            </div>
+            <div class="row-span-3">
+                <img src="icons/XMLID 1.png" alt="">
+            </div>
+            <div class="grid grid-cols-2 gap-7">
+                <div class="rounded-lg flex bg-white p-6">
+                    <img class="h-20 w-20" src="icons/image 13.png" alt="">
+                    <div>
+                        <h4 class="text-2xl">Free Exchanges</h4>
+                        <p>One of the many reasons you can shop with peace of mind.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-7">
+                <div class="rounded-lg flex bg-white p-6 gap-x-3">
+                    <img class="h-20 w-20" src="icons/image 14.png" alt="">
+                    <div>
+                        <h4 class="text-2xl">Contact Our Seller</h4>
+                        <p>They are here to help you. That's quite literally what we pay them for.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>buy from us</p>
+    </footer>
+
+
+</body>
+
+</html>
